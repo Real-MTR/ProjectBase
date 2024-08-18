@@ -6,6 +6,7 @@ import com.google.gson.LongSerializationPolicy;
 import lombok.Getter;
 import org.bukkit.plugin.java.JavaPlugin;
 import xyz.crystaldev.base.profile.Profile;
+import xyz.crystaldev.base.profile.ProfileListener;
 import xyz.crystaldev.base.profile.manager.ProfileManager;
 import xyz.crystaldev.base.profile.repository.ProfileRepository;
 import xyz.crystaldev.base.util.mongo.MongoAPI;
@@ -50,7 +51,7 @@ public final class ProjectBase extends JavaPlugin {
     }
 
     private void registerListeners() {
-
+        new ProfileListener(this);
     }
 
     @Override
