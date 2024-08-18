@@ -1,0 +1,7 @@
+mongo:
+  host: localhost
+  port: 27017
+  database: ProjectBase
+  auth: false
+  user: admin
+  password: 12345

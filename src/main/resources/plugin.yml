@@ -1,0 +1,4 @@
+name: ProjectBase
+version: '1.0'
+main: xyz.crystaldev.base.ProjectBase
+api-version: '1.18'
